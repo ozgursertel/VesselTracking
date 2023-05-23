@@ -25,8 +25,8 @@ driver = selenium.webdriver.Safari()
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '12iBFv282e2Psgq_BAm1igvhIvc1IZAZ7OJnoJt6VnL4'
-SAMPLE_RANGE_NAME = 'Booking!A:B'
+SAMPLE_SPREADSHEET_ID = ''
+SAMPLE_RANGE_NAME = ''
 
 
 def slow_type(element: WebElement, text: str, delay: float=0.1):
